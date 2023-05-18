@@ -15,3 +15,11 @@ docker exec -it jss bash
 ```
 
 and then run ./profile.sh
+
+## More Details
+
+read this first
+https://nodejs.org/en/docs/guides/diagnostics/poor-performance/using-linux-perf
+https://nodejs.org/en/docs/guides/diagnostics-flamegraph#create-a-flame-graph-with-system-perf-tools
+
+but for flamegraph use https://github.com/brendangregg/FlameGraph
