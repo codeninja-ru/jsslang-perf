@@ -2,8 +2,8 @@
 FROM alpine:latest
 
 RUN apk add --no-cache \
-    nodejs npm perf bash vim time
-RUN apk add --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/testing flamegraph
+    nodejs npm perf bash vim
+RUN apk add --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/testing flamegraph time
 
 
 WORKDIR /usr/src/app
